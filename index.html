@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr" class="plugin-pages plugin-id-default" data-theme="dark">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="generator" content="Docusaurus v2.4.0">
+   <title data-rh="true">vanculandia</title>
+   <link data-rh="true" rel="icon" href="images/1688022222573.png">
+   <script
+      data-rh="true">function maybeInsertBanner() { window.__DOCUSAURUS_INSERT_BASEURL_BANNER && insertBanner() } function insertBanner() { var n = document.getElementById("docusaurus-base-url-issue-banner-container"); if (n) { n.innerHTML = '\n<div id="docusaurus-base-url-issue-banner" style="border: thick solid red; background-color: rgb(255, 230, 179); margin: 20px; padding: 20px; font-size: 20px;">\n   <p style="font-weight: bold; font-size: 30px;">Your Docusaurus site did not load properly.</p>\n   <p>A very common reason is a wrong site <a href="https://docusaurus.io/docs/docusaurus.config.js/#baseUrl" style="font-weight: bold;">baseUrl configuration</a>.</p>\n   <p>Current configured baseUrl = <span style="font-weight: bold; color: red;">/</span>  (default value)</p>\n   <p>We suggest trying baseUrl = <span id="docusaurus-base-url-issue-banner-suggestion-container" style="font-weight: bold; color: green;"></span></p>\n</div>\n'; var e = document.getElementById("docusaurus-base-url-issue-banner-suggestion-container"), s = window.location.pathname, r = "/" === s.substr(-1) ? s : s + "/"; e.innerHTML = r } } window.__DOCUSAURUS_INSERT_BASEURL_BANNER = !0, document.addEventListener("DOMContentLoaded", maybeInsertBanner)</script>
+   <link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Armageddon RSS Feed">
+   <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Armageddon Atom Feed">
+   <link rel="stylesheet" href="css/styles.b9073465.css">
+   <link rel="preload" href="/assets/js/runtime~main.608e9b46.js" as="script">
+   <link rel="preload" href="/assets/js/main.769489cf.js" as="script">
+   <style>
+      #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+      }
+      
+      #status-container {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      #close-button {
+        float: right;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        
+      }
+
+      #start-server-button {
+      margin-top: 10px;
+      background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    #login-form {
+      display: none;
+      margin-top: 10px;
+      background-color: aliceblue;
+      color: black;
+    }
+
+    </style>
+    
+</head>
+
+<body class="navigation-with-keyboard">
+   
+   <nav aria-label="Main" class="navbar navbar--fixed-top navbarHideable_m1mJ">
+      <div class="navbar__inner">
+         <div class="navbar__items">
+            <button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn"
+               type="button">
+            </button><a class="navbar__brand" href="index.html">
+               <div class="navbar__logo" >
+                  <img src="logo2.png" alt="armamc" class="themedImage_ToTc themedImage--dark_i4oU" height="150px"
+                     width="150px">
+               </div> 
+               <a class="navbar__link" href="equipe.html">Equipe</a>           
+         </div>
+         <div class="navbar__items navbar__items--right">
+            <a href="https://discord.gg/gCFHwhFcz2" target="_blank" rel="noopener noreferrer"
+               class="navbar__link header-icon-link header-discord-link"></a>           
+         </a>         
+         </div> 
+   </nav>
+
+   <div id="docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0">
+      <header class="hero hero--primary allignCenter heroBanner_qdFl">
+         <div class="container">
+            <h1 class="hero__title">Vanculandia</h1>
+            <p class="hero__subtitle">Servidor de Minecraft - Made in Vanculandia</p>
+            <div>
+               <style data-emotion="css 1hxq67s">
+                  .css-1hxq67s {
+                     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+                     font-weight: 500;
+                     font-size: 0.875rem;
+                     line-height: 1.75;
+                     letter-spacing: 0.02857em;
+                     text-transform: uppercase;
+                     min-width: 64px;
+                     padding: 6px 16px;
+                     border-radius: 4px;
+                     -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                     color: #fff;
+                     background-color: #1976d2;
+                     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+                  }
+
+                  .css-1hxq67s:hover {
+                     -webkit-text-decoration: none;
+                     text-decoration: none;
+                     background-color: #1565c0;
+                     box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+                  }
+
+                  @media (hover: none) {
+                     .css-1hxq67s:hover {
+                        background-color: #1976d2;
+                     }
+                  }
+
+                  .css-1hxq67s:active {
+                     box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+                  }
+
+                  .css-1hxq67s.Mui-focusVisible {
+                     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+                  }
+
+                  .css-1hxq67s.Mui-disabled {
+                     color: rgba(0, 0, 0, 0.26);
+                     box-shadow: none;
+                     background-color: rgba(0, 0, 0, 0.12);
+                  }
+               </style>
+               <style data-emotion="css 1hw9j7s">
+                  .css-1hw9j7s {
+                     display: -webkit-inline-box;
+                     display: -webkit-inline-flex;
+                     display: -ms-inline-flexbox;
+                     display: inline-flex;
+                     -webkit-align-items: center;
+                     -webkit-box-align: center;
+                     -ms-flex-align: center;
+                     align-items: center;
+                     -webkit-box-pack: center;
+                     -ms-flex-pack: center;
+                     -webkit-justify-content: center;
+                     justify-content: center;
+                     position: relative;
+                     box-sizing: border-box;
+                     -webkit-tap-highlight-color: transparent;
+                     background-color: transparent;
+                     outline: 0;
+                     border: 0;
+                     margin: 0;
+                     border-radius: 0;
+                     padding: 0;
+                     cursor: pointer;
+                     -webkit-user-select: none;
+                     -moz-user-select: none;
+                     -ms-user-select: none;
+                     user-select: none;
+                     vertical-align: middle;
+                     -moz-appearance: none;
+                     -webkit-appearance: none;
+                     -webkit-text-decoration: none;
+                     text-decoration: none;
+                     color: inherit;
+                     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+                     font-weight: 500;
+                     font-size: 0.875rem;
+                     line-height: 1.75;
+                     letter-spacing: 0.02857em;
+                     text-transform: uppercase;
+                     min-width: 64px;
+                     padding: 6px 16px;
+                     border-radius: 4px;
+                     -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                     color: #fff;
+                     background-color: #1976d2;
+                     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+                  }
+
+                  .css-1hw9j7s::-moz-focus-inner {
+                     border-style: none;
+                  }
+
+                  .css-1hw9j7s.Mui-disabled {
+                     pointer-events: none;
+                     cursor: default;
+                  }
+
+                  @media print {
+                     .css-1hw9j7s {
+                        -webkit-print-color-adjust: exact;
+                        color-adjust: exact;
+                     }
+                  }
+
+                  .css-1hw9j7s:hover {
+                     -webkit-text-decoration: none;
+                     text-decoration: none;
+                     background-color: #1565c0;
+                     box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+                  }
+
+                  @media (hover: none) {
+                     .css-1hw9j7s:hover {
+                        background-color: #1976d2;
+                     }
+                  }
+
+                  .css-1hw9j7s:active {
+                     box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+                  }
+
+                  .css-1hw9j7s.Mui-focusVisible {
+                     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+                  }
+
+                  .css-1hw9j7s.Mui-disabled {
+                     color: rgba(0, 0, 0, 0.26);
+                     box-shadow: none;
+                     background-color: rgba(0, 0, 0, 0.12);
+                  }
+               </style>
+               <button onclick="verificarStatusServidor()"
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-1hw9j7s"
+                  tabindex="0" type="button"
+                  style="border-radius:5px;background-color:#1B1B1D;padding:10px 30px;font-size:18px">Verificar Status do Servidor</button>
+
+                  <div id="overlay">
+                     <div id="status-container">
+                       <img id="server-logo" src="logo2.png" alt="Logo do servidor"
+                       height="130px">
+                       <div id="server-ip"></div>
+                       <div id="server-ip"></div>
+                       <div id="players-online"></div>
+                       <div id="server-status"></div><br>
+                       <a id="start-server-button" href="https://aternos.org/go/">Ligar o Servidor</a>
+      <div id="login-form">
+        <p>login -> vanculandia <br>
+         senha -> mundo2023
+        </p>
+       
+        </div>
+                       <span id="close-button" onclick="fecharOverlay()">Fechar</span>
+                     </div>
+                   </div>
+                   
+            </div>
+         </div>
+      </header>
+      <section class="features_CmKC">
+         <div class="container">
+            <div class="row">
+               <div class="col col--6">
+                  <div class="card margin-vert--md">
+                     <div class="card">
+                        <div class="card__image">
+                           <img src="images/minecraft-java-edition.jpg" alt="Acessar usando Java"
+                              title="Acessar usando Java">
+                        </div>
+                        <div class="card__body">
+                           <h4>Acessar usando Java</h4>
+                           <small>Saiba como acessar usando a versão Java Edition.</small>
+                        </div>
+                        <div class="card__footer">
+                           <a class="button button--primary button--block" href="java.html">Acessar
+                              usando Java</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col col--6">
+                  <div class="card margin-vert--md">
+                     <div class="card">
+                        <div class="card__image">
+                           <img src="images/wp7971174.jpg" alt="Acessar usando Bedrock" title="Acessar usando Bedrock">
+                        </div>
+                        <div class="card__body">
+                           <h4>Acessar usando Bedrock</h4>
+                           <small>Saiba como acessar usando a versão Bedrock Edition.</small>
+                        </div>
+                        <div class="card__footer">
+                           <a class="button button--primary button--block"
+                              href="bedrock.html">Acessar usando Bedrock</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+              
+            </div>
+         </div>
+      </section>
+   </div>
+   </div>
+   <script src="js/runtime~main.608e9b46.js"></script>
+   <script src="js/main.769489cf.js"></script>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  function verificarStatusServidor() {
+    var url = "https://api.mcsrvstat.us/2/vanculandia.aternos.me:23251"; // Substitua <endereço_ip_servidor> pelo IP do servidor Minecraft
+      $.getJSON(url, function(data) {
+        if (data.online) {
+          var playersOnline = data.players.online;
+          var serverStatus = "Online";
+          
+
+          $("#players-online").text("");
+          $("#server-status").text("O servidor está offline!");
+          $("#start-server-button").show();
+          $("#login-form").show();
+        }
+         else {
+            $("#players-online").text("Jogadores online: " + playersOnline);
+          $("#server-status").text("Status do servidor: " + serverStatus);
+          $("#start-server-button").hide();
+          $("#login-form").hide();
+          
+        }
+        $("#overlay").fadeIn();
+      });
+    }
+    
+    function fecharOverlay() {
+      $("#overlay").fadeOut();
+    }
+  </script>
+
+</html>
